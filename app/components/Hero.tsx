@@ -14,15 +14,13 @@ export default function Hero() {
       >
         <div className="border-b-2 border-b-[#494949] pb-4 flex text-white font-semibold flex-col gap-2">
           <h1 className="text-3xl">Shiv Satyam</h1>
-          <p>17, India 🚩</p>
+          <p>17, India 📍</p>
         </div>
         <div>
           <p className="text-[#E5E7EB] mt-3">
-            Hey, I’m Shiv Satyam! I am a JEE Aspirant and Web / App Developer
-            from India. <br />
-            <br></br>I am really interested in Machine Learning and Artificial
-            Intelligence. I also like to think, maybe that is a reason why i
-            love competitive programming and problem solving in general.
+            Hey, I'm Shiv Satyam! I am a Web / App Developer from India. <br />
+            <br></br>I am really interested in Machine Learning. I used to be a
+            Competitive Programmer, but these days i tend to develop more.
           </p>
         </div>
         <div className="mt-6">

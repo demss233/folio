@@ -17,9 +17,13 @@
 }
 
 body {
-  background: #121212;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: #1d2021;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+}
+
+* {
+  font-family: "Fira Code";
 }
 
 .links a {

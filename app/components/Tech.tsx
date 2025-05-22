@@ -17,8 +17,10 @@ export default function Tech() {
             Three.js, Clerk.js, Redux, React Native, Puppeteer, WebSocket.
           </li>
           <li>Frontend Frameworks: Next.js, Gatsby, Astro, Angular.</li>
-          <li>Backend Frameworks/Libraries: Django, Flask, Node.js, Express.js</li>
-          <li>Database: MongoDB, SQL, Postgres</li>{" "}
+          <li>
+            Backend Frameworks/Libraries: Django, Flask, Node.js, Express.js
+          </li>
+          <li>Databases: MongoDB, SQL, Postgres</li>{" "}
           <li>
             Other Tools/Platforms: Webflow, Appwrite, Figma, Git, Neovim,
             Shadcn.

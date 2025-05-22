@@ -17,11 +17,11 @@ export default function Experience() {
             i needed.
           </li>
           <li>
-            I have been programming for 6 years now. I have made a variety of
+            I have been programming for 7 years now. I have made a variety of
             projects with different technologies.
           </li>
           <li>
-            I have learned alot from other’s source codes and documentations
+            I have learned alot from other's source codes and documentations
           </li>
         </ul>
       </div>

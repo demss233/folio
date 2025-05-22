@@ -10,7 +10,6 @@ export default function Hobbies() {
         <ul className="ml-8 flex flex-col gap-4">
           <li className="cursor-pointer">Singing</li>
           <li className="cursor-pointer">Writing Stuff</li>
-          <li className="cursor-pointer">Listening to rap</li>
           <li className="cursor-pointer">Cubing</li>
         </ul>
       </div>
