@@ -15,20 +15,20 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="flex items-center justify-between ">
-        <div className="gap-5 flex items-baseline">
-          <div className="text-3xl font-bold text-white cursor-pointer">
-            ss.
+      <div className="flex items-center mt-4">
+        <div className="gap-5 flex items-center  w-full justify-between">
+          <div className="flex gap-5 items-center">
+            <img src="/ico9.jpg" width={40} height={40} />
+            <div className="text-2xl font-bold text-[#e5e5e5] cursor-pointer">
+              satyam
+            </div>
           </div>
-          <ul className="hidden gap-4 links sm:flex list-none">
+          <ul className="hidden gap-4 links sm:flex list-none ">
             <li>
-              <a href="/">Home</a>
+              <a href="/404">blog</a>
             </li>
             <li>
-              <a href="/404">Blog</a>
-            </li>
-            <li>
-              <a href="mailto:shivsatyam86@gmail.com">Contact</a>
+              <a href="mailto:shivsatyam86@gmail.com">contact</a>
             </li>
           </ul>
         </div>

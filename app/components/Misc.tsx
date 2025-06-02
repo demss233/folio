@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Misc() {
   return (
     <>
-      <div className=" pb-4 flex text-white  flex-col gap-2 mt-12">
+      <div className=" pb-4 flex text-[#e5e5e5]  flex-col gap-2 mt-8">
         <h1 className="text-2xl font-semibold">
           What softwares do i use daily ?
         </h1>

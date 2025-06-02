@@ -10,21 +10,52 @@ export default function Hero() {
   return (
     <>
       <div
-        className={`flex mx-auto mt-14 flex-col gap-3 ${open ? "hidden" : ""}`}
+        className={`flex mx-auto mt-6 flex-col gap-3 ${open ? "hidden" : ""}`}
       >
-        <div className="border-b-2 border-b-[#494949] pb-4 flex text-white font-semibold flex-col gap-2">
-          <h1 className="text-3xl">Shiv Satyam</h1>
-          <p>17, India 📍</p>
-        </div>
         <div>
-          <p className="text-[#E5E7EB] mt-3">
-            Hey, I'm Shiv Satyam! I am a Web / App Developer from India. <br />
-            <br></br>I am really interested in Machine Learning. I used to be a
-            Competitive Programmer, but these days i tend to develop more.
+          <p className="text-[#aaaaaa] text-[16px] font-medium">
+            hey there 👋. I like{" "}
+            <span className="text-[#e5e5e5] underline underline-offset-4">
+              neovim
+            </span>
+            {", "}{" "}
+            <span className="text-[#e5e5e5] underline underline-offset-4">
+              nextjs
+            </span>{" "}
+            and{" "}
+            <span className="text-[#e5e5e5] underline underline-offset-4">
+              minimalism.
+            </span>
+            <br></br>
+            <br></br>i like developing web apps. i am proficient in react native
+            too. i used to be a competitive programmer, but nowadays i tend to
+            develop more.
+            <br></br>
+            <br></br>
+            apart from programming, i am pretty interested in maths, and problem
+            solving in general.
+            <br></br>
           </p>
+          <div className="mt-5 flex gap-5">
+            <a href="#" className="text-[#e5e5e5] underline underline-offset-4">
+              github
+            </a>
+            <a href="#" className="text-[#e5e5e5] underline underline-offset-4">
+              codechef
+            </a>
+            <a href="#" className="text-[#e5e5e5] underline underline-offset-4">
+              codepen
+            </a>
+            <a href="#" className="text-[#e5e5e5] underline underline-offset-4">
+              hackerrank
+            </a>
+            <a href="#" className="text-[#e5e5e5] underline underline-offset-4">
+              codeforces
+            </a>
+          </div>
         </div>
-        <div className="mt-6">
-          <img src="hero.png" alt="" className="opacity-[70%]" />
+        <div className="w-full mt-5">
+          <img src="/hero.png" alt="" className="opacity-[70%]" />
         </div>
       </div>
     </>

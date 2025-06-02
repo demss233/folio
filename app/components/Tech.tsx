@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function Tech() {
   return (
     <>
-      <div className="pb-4 flex text-white flex-col gap-2 mt-14">
-        <h1 className="text-2xl font-semibold">My Tech Stack</h1>
+      <div className="pb-4 flex text-[#e5e5e5] flex-col gap-2 mt-8">
+        <h1 className="text-2xl font-semibold">my tech stack</h1>
         <ul className="ml-8 flex flex-col gap-4">
           <li>
             Programming Languages: HTML, CSS, Python, JavaScript, C, C++, Rust,
