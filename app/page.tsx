@@ -4,20 +4,18 @@ import Hero from "./components/Hero";
 import Tech from "./components/Tech";
 import SectionLayout from "./components/SectionLayout";
 import Experience from "./components/Experience";
-import Misc from "./components/Misc";
 import Footer from "./components/Footer";
-import Hobbies from "./components/Hobbies";
+import Links from "./components/Links";
 
 export default function App() {
   return (
     <>
-      <Navbar></Navbar>
       <SectionLayout>
+        <Navbar></Navbar>
         <Hero></Hero>
         <Tech></Tech>
         <Experience></Experience>
-        <Misc></Misc>
-        <Hobbies></Hobbies>
+        <Links></Links>
         <Footer></Footer>
       </SectionLayout>
     </>

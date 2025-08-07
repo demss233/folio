@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,9 +18,11 @@
 }
 
 body {
-  background: #121212;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: black;
+}
+
+* {
+  font-family: "Inter", sans-serif;
 }
 
 .links a {
@@ -52,8 +55,26 @@ body {
   ol {
     list-style: revert;
   }
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  code {
+    background-color: revert;
+  }
+  p {
+    color: #aaaaaa;
+  }
 }
 
 ul li {
-  color: #e5e7eb;
+  color: #aaaaaa;
 }

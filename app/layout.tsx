@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ContextProvider } from "@/context/Menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +22,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} px-10 mx-auto flex flex-col gap-8 py-5`}
       >
-        <ContextProvider>{children}</ContextProvider>
+        {children}
       </body>
     </html>
   );

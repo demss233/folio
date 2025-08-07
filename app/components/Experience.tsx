@@ -5,23 +5,21 @@ import Image from "next/image";
 export default function Experience() {
   return (
     <>
-      <div className=" pb-4 flex text-white  flex-col gap-2 mt-12">
-        <h1 className="text-2xl font-semibold">Any experience ?</h1>
+      <div className=" pb-4 flex text-[#e5e5e5]  flex-col gap-2 mt-8">
+        <h1 className="text-2xl font-semibold">Experience</h1>
         <ul className="ml-8 flex flex-col gap-4">
           <li>
-            I have worked on some freelance projects when i was working for a
-            freelancing agency under a project manager.
+            Did freelance work through an agency, working under a project
+            manager.
           </li>
           <li>
-            Really thankful to that agency for giving me the kind of experience
-            i needed.
+            Been coding for ~8 years, built lots of stuff with different stacks.
           </li>
           <li>
-            I have been programming for 6 years now. I have made a variety of
-            projects with different technologies.
+            Learned a ton from open-source code and reading good documentation.
           </li>
           <li>
-            I have learned alot from other’s source codes and documentations
+            I have learned alot from other's source codes and documentations.
           </li>
         </ul>
       </div>
